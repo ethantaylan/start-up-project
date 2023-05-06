@@ -1,5 +1,7 @@
 /* Reset styles */
 @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+@import './tablet.css';
+
 
 * {
   box-sizing: border-box;
@@ -38,8 +40,8 @@ nav {
 }
 
 .image-fluid {
-  width: 400px;
-  height: 380px;
+  height: 350px;
+  margin-left: 40px;
   object-fit: contain;
 }
 
@@ -137,7 +139,6 @@ h2 {
   margin: 10px;
   margin-bottom: 0%;
   padding-bottom: 0%;
-  background-color: #ffaa00;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   overflow: hidden;
@@ -155,7 +156,6 @@ h2 {
 
 /* Pricing cards styles */
 .pricing {
-  background-color: #ff9a9a;
   padding: 80px 0;
 }
 
@@ -168,14 +168,10 @@ h2 {
   width: 100%;
   vertical-align: middle;
   align-items: end;
-  margin: 10px;
-  margin-bottom: 0%;
-  padding: 5%;
-  border-radius: 4px;
   text-align: center;
-  background-color: #ffe6a5;
   display: flex;
   justify-content: center;
+  border-radius: 20px
 }
 
 .avis-cards {
@@ -187,7 +183,6 @@ h2 {
   padding: 5%;
   border-radius: 4px;
   text-align: center;
-  background-color: #ffe6a5;
   display: flex;
   justify-content: center;
   font-style: italic;
@@ -217,7 +212,6 @@ h2 {
   padding: 5%;
   border-radius: 4px;
   text-align: center;
-  background-color: #ffe6a5;
   display: flex;
   justify-content: center;
   flex-direction: column
